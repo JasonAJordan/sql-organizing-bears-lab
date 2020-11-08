@@ -4,6 +4,7 @@ require 'pry'
 class SQLRunner
   def initialize(db)
     @db = db
+    
   end
 
   def execute_create_file
